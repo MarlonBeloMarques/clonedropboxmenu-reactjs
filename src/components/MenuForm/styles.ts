@@ -41,6 +41,8 @@ export const Navigation = styled.div`
   }
 
   @media (min-width: 1024px) {
+    justify-content: flex-end;
+    
     > h1 {
       display: none;
     }
@@ -97,7 +99,7 @@ export const Form = styled.div`
     }
 
   }
-  
+
   > .terms {
     font-size: 12px;
     opacity: 0.6;
